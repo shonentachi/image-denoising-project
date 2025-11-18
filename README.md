@@ -17,15 +17,16 @@ Proyek ini implementasi algoritma **Non-Local Means Denoising** untuk mengurangi
 * Python 3.6+
 * OpenCV
 
-### Install Dependencies
-```bash
+## 📋 Fitur
+
+'''bash
 pip install opencv-python
 🚀 Cara Menggunakan
 Siapkan gambar di folder images/original/
 
-##Jalankan script:
+## 📋 Fitur
 
-bash
+'''bash
 cd src
 python denoising.py
 Hasil akan tersimpan di images/results/
@@ -66,7 +67,7 @@ MIT License - bebas digunakan untuk project personal maupun komersial.
 text
 
 ## 📄 File requirements.txt
-```txt
+``'txt
 opencv-python==4.8.1.78
 ##🔧 Modified Code dengan Path yang Lebih Baik
 python
