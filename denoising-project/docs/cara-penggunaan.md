@@ -35,20 +35,12 @@ OpenCV - Library image processing
 
 Algoritma Non-Local Means - Untuk denoising
 
-### 📖 DOKUMENTASI LAIN
-
-[📖 Cara Penggunaan Detail]
-
-[🔧 Troubleshooting]]
-
-[🔌 API Reference]
-
 ### 👨‍💻 AUTHOR
 Dibuat oleh [Egy Fahmi Ramadhani] untuk pembelajaran image processing.
 
 💡 Tips: Letakkan file gambar 1.jpg di folder yang sama dengan denoising.py sebelum menjalankan program!
 
-text
+```text```
 
 ## ❌ **YANG TIDAK PERLU DIMASUKIN:**
 - Penjelasan algoritma detail (masuk ke `penjelasan-teknis.md`)
@@ -62,3 +54,4 @@ text
 **User baca 2 menit → paham → langsung bisa jalanin program!** 🚀
 
 Gimana bro, cukup simple kan? 😊
+
