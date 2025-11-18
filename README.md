@@ -50,7 +50,7 @@ denoising-project/
 └── README.md            # File ini
 ```
 
-##3 ⚙️ Parameter Denoising
+## ⚙️ Parameter Denoising
 
 ```python
 # Default parameters:
@@ -59,7 +59,7 @@ templateWindowSize = 7   # Ukuran template window
 searchWindowSize = 21    # Ukuran search window
 ```
 
-##📸 Contoh Hasil
+## 📸 Contoh Hasil
 
 before
 [https://github.com/shonentachi/image-denoising-project/blob/main/denoising-project/images/original/gambar%201.jpg]
@@ -68,7 +68,7 @@ before
 after
 [https://github.com/shonentachi/image-denoising-project/blob/main/denoising-project/images/results/foto_denoised.jpg]
 
-##🎯 Teknik yang Digunakan
+## 🎯 Teknik yang Digunakan
 
 Non-Local Means Denoising: Algoritma canggih yang mempertahankan detail gambar
 
@@ -76,11 +76,11 @@ Grayscale Conversion: Optimasi processing
 
 Real-time Comparison: Visualisasi langsung
 
-##👨‍💻 Author
+## 👨‍💻 Author
 
 Dibuat oleh [Egy Fahmi Ramadhani]
 
-##📄 License
+## 📄 License
 
 MIT License - bebas digunakan untuk project personal maupun komersial.
 
@@ -90,7 +90,7 @@ text
 opencv-python==4.8.1.78
 ```
 
-##🔧 Modified Code dengan Path yang Lebih Baik
+## 🔧 Modified Code dengan Path yang Lebih Baik
 ```python
 import cv2
 import os
