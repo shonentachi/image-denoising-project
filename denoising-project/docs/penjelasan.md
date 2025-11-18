@@ -40,20 +40,6 @@ Dibuat oleh [Egy Fahmi Ramadhani] untuk pembelajaran image processing.
 
 💡 Tips: Letakkan file gambar 1.jpg di folder yang sama dengan denoising.py sebelum menjalankan program!
 
-```text```
-
-## ❌ **YANG TIDAK PERLU DIMASUKIN:**
-- Penjelasan algoritma detail (masuk ke `penjelasan-teknis.md`)
-- Step-by-step lengkap (masuk ke [https://github.com/shonentachi/image-denoising-project/blob/main/denoising-project/docs/cara-penggunaan.md]) 
-- Solusi error detail (masuk ke `troubleshooting.md`)
-- Dokumentasi fungsi teknis (masuk ke `api-reference.md`)
-
-## 🎯 **INTINYA:**
-`penjelasan.md` itu seperti **"elevator pitch"** - singkat, jelas, dan bikin orang tertarik untuk mencoba! 
-
-**User baca 2 menit → paham → langsung bisa jalanin program!** 🚀
-
-Gimana bro, cukup simple kan? 😊
 
 
 
