@@ -61,6 +61,8 @@ searchWindowSize = 21    # Ukuran search window
 
 before
 [https://github.com/shonentachi/image-denoising-project/blob/main/denoising-project/images/original/gambar%201.jpg]
+
+
 after
 [https://github.com/shonentachi/image-denoising-project/blob/main/denoising-project/images/results/foto_denoised.jpg]
 
