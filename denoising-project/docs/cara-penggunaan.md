@@ -21,19 +21,19 @@ python denoising.py
 ```
 
 ## 📁 FILE YANG DIBUTUHKIN
-denoising.py - Kode program utama
+- denoising.py - Kode program utama
 
-gambar 1.jpg - Gambar input (ganti dengan gambar kamu)
+- gambar 1.jpg - Gambar input (ganti dengan gambar kamu)
 
-requirements.txt - Daftar library yang diperlukan
+- requirements.txt - Daftar library yang diperlukan
 
 
 ### 🔧 TEKNOLOGI
-Python 3 - Bahasa pemrograman
+- Python 3 - Bahasa pemrograman
 
-OpenCV - Library image processing
+- OpenCV - Library image processing
 
-Algoritma Non-Local Means - Untuk denoising
+- Algoritma Non-Local Means - Untuk denoising
 
 ### 👨‍💻 AUTHOR
 Dibuat oleh [Egy Fahmi Ramadhani] untuk pembelajaran image processing.
@@ -54,4 +54,5 @@ Dibuat oleh [Egy Fahmi Ramadhani] untuk pembelajaran image processing.
 **User baca 2 menit → paham → langsung bisa jalanin program!** 🚀
 
 Gimana bro, cukup simple kan? 😊
+
 
