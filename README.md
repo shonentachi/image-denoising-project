@@ -67,7 +67,7 @@ MIT License - bebas digunakan untuk project personal maupun komersial.
 text
 
 ## 📄 File requirements.txt
-``'txt
+```'txt
 opencv-python==4.8.1.78
 ##🔧 Modified Code dengan Path yang Lebih Baik
 python
