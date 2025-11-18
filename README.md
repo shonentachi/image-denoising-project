@@ -6,16 +6,16 @@
 Proyek ini implementasi algoritma **Non-Local Means Denoising** untuk mengurangi noise pada gambar menggunakan library OpenCV.
 
 ## 📋 Fitur
-- ✅ Denoising gambar grayscale
-- ✅ Perbandingan visual sebelum & sesudah
-- ✅ Export hasil processing
-- ✅ Parameter yang dapat disesuaikan
+* ✅ Denoising gambar grayscale
+* ✅ Perbandingan visual sebelum & sesudah
+* ✅ Export hasil processing
+* ✅ Parameter yang dapat disesuaikan
 
 ## 🛠️ Instalasi
 
 ### Prerequisites
-- Python 3.6+
-- OpenCV
+* Python 3.6+
+* OpenCV
 
 ### Install Dependencies
 ```bash
@@ -30,7 +30,7 @@ cd src
 python denoising.py
 Hasil akan tersimpan di images/results/
 
-##📁 Struktur Project
+### 📁 Struktur Project
 text
 denoising-project/
 ├── src/                    # Source code
