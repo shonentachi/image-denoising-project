@@ -25,6 +25,7 @@ pip install opencv-python
 ```
 
 ###🚀 Cara Menggunakan
+
 Siapkan gambar di folder images/original/
 
 ## 📋 Fitur
