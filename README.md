@@ -24,7 +24,7 @@ pip install opencv-python
 
 ```
 
-###🚀 Cara Menggunakan
+### 🚀 Cara Menggunakan
 
 Siapkan gambar di folder images/original/
 
@@ -50,7 +50,7 @@ denoising-project/
 └── README.md            # File ini
 ```
 
-##3⚙️ Parameter Denoising
+##3 ⚙️ Parameter Denoising
 
 ```python
 # Default parameters:
