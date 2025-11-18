@@ -79,7 +79,7 @@ Efek:
 
 - Nilai besar → Lambat, hasil lebih bagus
 
-🔍 DETAIL IMPLEMENTASI
+### 🔍 DETAIL IMPLEMENTASI
 Flow Program Kita:
 ```python
 # 1. Baca gambar
@@ -102,50 +102,56 @@ Noise lebih mudah diidentifikasi
 
 Hasil lebih konsisten
 
-📈 METRIK KUALITAS
+## 📈 METRIK KUALITAS
 PSNR (Peak Signal-to-Noise Ratio)
 Rumus: PSNR = 20 * log10(MAX / √MSE)
 
 Interpretasi:
 
-- 'PSNR < 20 dB → Poor quality'
+- PSNR < 20 dB → Poor quality
 
-- 'PSNR 20-30 dB → Acceptable'
+- PSNR 20-30 dB → Acceptable
 
-- 'PSNR > 30 dB → Good quality'
+- PSNR > 30 dB → Good quality
 
-- 'PSNR > 40 dB → Excellent'
+- PSNR > 40 dB → Excellent
 
 Improvement Typical:
 Gambar noisy ringan: +5-10 dB improvement
 
 Gambar noisy berat: +10-15 dB improvement
 
-🆚 PERBANDINGAN ALGORITMA
+### 🆚 PERBANDINGAN ALGORITMA
+
 Non-Local Means vs Others:
+```Markdown
 Algorithm	Kelebihan	Kekurangan
 Non-Local Means	Hasil natural, detail terjaga	Processing lambat
 Gaussian Blur	Cepat	Hasil blur, detail hilang
 Median Filter	Bagus untuk salt-pepper noise	Tidak optimal untuk Gaussian noise
 Bilateral Filter	Pertahankan edges	Parameter sensitif
-🎯 OPTIMAL PARAMETER COMBINATIONS
+```
+## 🎯 OPTIMAL PARAMETER COMBINATIONS
 Untuk Various Scenarios:
 1. Portrait Photos (Skin Smoothing)
-python
+```python
 h = 8, templateWindowSize = 5, searchWindowSize = 15
 → Pertahankan detail wajah, hilangkan noise halus
+```
 
 2. Document Scanning
-python
+```python
 h = 15, templateWindowSize = 7, searchWindowSize = 21  
 → Hilangkan noise berat, pertahankan text clarity
+```
 
 3. Low-light Photography
-python
+```python
 h = 25, templateWindowSize = 7, searchWindowSize = 25
 → Strong denoising untuk high ISO noise
+```
 
-⚠️ LIMITASI & SOLUSI
+### ⚠️ LIMITASI & SOLUSI
 Limitations:
 Processing time lama untuk gambar besar
 
@@ -154,17 +160,20 @@ Memory intensive untuk high resolution
 Tidak optimal untuk structured noise
 
 Workarounds:
-python
+```python
 # Untuk gambar besar, resize dulu
 img = cv2.imread("large_image.jpg")
 img_small = cv2.resize(img, (1200, 800))  # Resize dulu
-🔬 ADVANCED TOPICS
+```
+
+## 🔬 ADVANCED TOPICS
 Color Image Denoising:
-python
+```python
 # Bisa juge denoise color image langsung
 denoised_color = cv2.fastNlMeansDenoisingColored(img, None, h=10, ...)
 Multiple Iterations:
-python
+```
+```python
 # Denoising berulang untuk hasil lebih halus
 denoised1 = cv2.fastNlMeansDenoising(gray, None, h=10, ...)
 denoised2 = cv2.fastNlMeansDenoising(denoised1, None, h=5, ...)
