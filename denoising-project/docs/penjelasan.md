@@ -1,17 +1,59 @@
-# 📊 Dokumentasi Teknis - Image Denoising
+# 📷 PROYEK DENOISING GAMBAR
 
-## 🎯 Overview
-Proyek ini mengimplementasikan algoritma **Non-Local Means Denoising** menggunakan OpenCV untuk mengurangi noise pada gambar digital.
+## 🎯 APA INI?
+Program sederhana untuk **membersihkan noise** (gangguan) pada gambar menggunakan Python dan OpenCV.
 
-## 🔬 Algoritma yang Digunakan
+## ✨ FITUR UTAMA
+- ✅ Hilangkan noise dari gambar
+- ✅ Tampilkan perbandingan sebelum & sesudah  
+- ✅ Simpan hasil denoising
+- ✅ Mudah digunakan
 
-### Non-Local Means Denoising
-- **Konsep**: Memanfaatkan similarity antara patch gambar
-- **Keunggulan**: Mempertahankan detail edges dan texture
-- **Kompleksitas**: O(n²) tetapi efektif untuk quality
+## 🚀 CARA CEPAT PAKAI
+```bash
+# 1. Install OpenCV
+pip install opencv-python
 
-### Parameter Algoritma:
-```python
-h = 10                    # Filter strength
-templateWindowSize = 7    # Patch size untuk perbandingan
-searchWindowSize = 21     # Area pencarian similarity
+# 2. Jalankan program
+python denoising.py
+
+# 3. Lihat hasil di 'foto_denoised.jpg'
+```
+
+## 📁 FILE YANG DIBUTUHKIN
+- denoising.py - Kode program utama
+
+- gambar 1.jpg - Gambar input (ganti dengan gambar kamu)
+
+- requirements.txt - Daftar library yang diperlukan
+
+
+### 🔧 TEKNOLOGI
+- Python 3 - Bahasa pemrograman
+
+- OpenCV - Library image processing
+
+- Algoritma Non-Local Means - Untuk denoising
+
+### 👨‍💻 AUTHOR
+Dibuat oleh [Egy Fahmi Ramadhani] untuk pembelajaran image processing.
+
+💡 Tips: Letakkan file gambar 1.jpg di folder yang sama dengan denoising.py sebelum menjalankan program!
+
+```text```
+
+## ❌ **YANG TIDAK PERLU DIMASUKIN:**
+- Penjelasan algoritma detail (masuk ke `penjelasan-teknis.md`)
+- Step-by-step lengkap (masuk ke `cara-penggunaan.md`) 
+- Solusi error detail (masuk ke `troubleshooting.md`)
+- Dokumentasi fungsi teknis (masuk ke `api-reference.md`)
+
+## 🎯 **INTINYA:**
+`penjelasan.md` itu seperti **"elevator pitch"** - singkat, jelas, dan bikin orang tertarik untuk mencoba! 
+
+**User baca 2 menit → paham → langsung bisa jalanin program!** 🚀
+
+Gimana bro, cukup simple kan? 😊
+
+
+
