@@ -26,7 +26,7 @@ Masih di Command Prompt, ketik:
 python denoising.py
 ```
 
-### 👀 APA YANG TERJADI SELANJUTNY?
+## 👀 APA YANG TERJADI SELANJUTNY?
 Program baca gambar gambar 1.jpg
 
 Proses denoising berjalan (tunggu beberapa detik)
@@ -39,17 +39,18 @@ Muncul 2 window:
 
 File hasil disimpan sebagai foto_denoised.jpg
 
-🖱️ LANGKAH 4: LIHAT HASIL
-Klik window manapun
+## 🖱️ LANGKAH 4: LIHAT HASIL
+- Klik window manapun
 
-Tekan tombol keyboard apa aja (spasi, enter, esc)
+- Tekan tombol keyboard apa aja (spasi, enter, esc)
 
-Program tutup dan selesai!
+- Program tutup dan selesai!
 
-📁 HASIL YANG DIDAPAT
-foto_denoised.jpg - Gambar yang udah dibersihin
+## 📁 HASIL YANG DIDAPAT
 
-Bandingin sama gambar asli, harusnya lebih bersih dan halus
+-- foto_denoised.jpg - Gambar yang udah dibersihin
+
+-- Bandingin sama gambar asli, harusnya lebih bersih dan halus
 
 ⚡ MAU COBA GAMBAR LAIN?
 Ganti nama file gambar kamu jadi gambar 1.jpg atau edit kodenya:
@@ -102,3 +103,4 @@ text
 4. Mau advanced? → ada tips sederhana
 
 **Gitu aja bro, simpel dan praktis!** User langsung bisa jalanin tanpa pusing baca dokumentasi teknis. 😊
+
