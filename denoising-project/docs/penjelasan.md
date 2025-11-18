@@ -44,7 +44,7 @@ Dibuat oleh [Egy Fahmi Ramadhani] untuk pembelajaran image processing.
 
 ## ❌ **YANG TIDAK PERLU DIMASUKIN:**
 - Penjelasan algoritma detail (masuk ke `penjelasan-teknis.md`)
-- Step-by-step lengkap (masuk ke `[cara-penggunaan.md](https://github.com/shonentachi/image-denoising-project/blob/main/denoising-project/docs/cara-penggunaan.md]`) 
+- Step-by-step lengkap (masuk ke `[cara-penggunaan.md][https://github.com/shonentachi/image-denoising-project/blob/main/denoising-project/docs/cara-penggunaan.md]`) 
 - Solusi error detail (masuk ke `troubleshooting.md`)
 - Dokumentasi fungsi teknis (masuk ke `api-reference.md`)
 
