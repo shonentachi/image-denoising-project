@@ -1,30 +1,64 @@
-# 📊 PENJELASAN TEKNIS DENOISING GAMBAR
+# 📷 PROYEK DENOISING GAMBAR
 
-## 🎯 APA ITU DENOISING?
-Denoising adalah proses **menghilangkan noise** (gangguan) dari gambar sehingga gambar menjadi lebih bersih dan jelas.
+## 🎯 APA INI?
+Program sederhana untuk **membersihkan noise** (gangguan) pada gambar menggunakan Python dan OpenCV.
 
-**Analoginya:** Seperti membersihkan foto lama yang berdebu dan bekas goresan.
+## ✨ FITUR UTAMA
+- ✅ Hilangkan noise dari gambar
+- ✅ Tampilkan perbandingan sebelum & sesudah  
+- ✅ Simpan hasil denoising
+- ✅ Mudah digunakan
 
-## 🔬 ALGORITMA YANG DIGUNAKAN
+## 🚀 CARA CEPAT PAKAI
+```bash
+# 1. Install OpenCV
+pip install opencv-python
 
-### Non-Local Means Denoising
-Algoritma ini bekerja dengan cara **membandingkan bagian-bagian gambar** yang mirip di seluruh area gambar.
+# 2. Jalankan program
+python denoising.py
 
-**Cara kerjanya:**
-- Ambil satu bagian kecil gambar (patch)
-- Cari bagian-bagian lain di gambar yang mirip
-- Rata-ratakan bagian-bagian yang mirip tersebut
-- Hasil rata-rata digunakan untuk membersihkan noise
+# 3. Lihat hasil di 'foto_denoised.jpg'
+```
 
-**Keunggulan:**
-- ✅ Mempertahankan ketajaman edges
-- ✅ Tidak membuat gambar blur
-- ✅ Efektif untuk berbagai jenis noise
+## 📁 FILE YANG DIBUTUHKIN
+denoising.py - Kode program utama
 
-## ⚙️ PARAMETER-PARAMETER TEKNIS
+gambar 1.jpg - Gambar input (ganti dengan gambar kamu)
 
-```python
-# Parameter dalam kode kita:
-h = 10                    # Kekuatan filter (3-30)
-templateWindowSize = 7    # Ukuran patch untuk perbandingan
-searchWindowSize = 21     # Area pencarian similarity
+requirements.txt - Daftar library yang diperlukan
+
+
+### 🔧 TEKNOLOGI
+Python 3 - Bahasa pemrograman
+
+OpenCV - Library image processing
+
+Algoritma Non-Local Means - Untuk denoising
+
+### 📖 DOKUMENTASI LAIN
+
+[📖 Cara Penggunaan Detail]
+
+[🔧 Troubleshooting]]
+
+[🔌 API Reference]
+
+### 👨‍💻 AUTHOR
+Dibuat oleh [Egy Fahmi Ramadhani] untuk pembelajaran image processing.
+
+💡 Tips: Letakkan file gambar 1.jpg di folder yang sama dengan denoising.py sebelum menjalankan program!
+
+text
+
+## ❌ **YANG TIDAK PERLU DIMASUKIN:**
+- Penjelasan algoritma detail (masuk ke `penjelasan-teknis.md`)
+- Step-by-step lengkap (masuk ke `cara-penggunaan.md`) 
+- Solusi error detail (masuk ke `troubleshooting.md`)
+- Dokumentasi fungsi teknis (masuk ke `api-reference.md`)
+
+## 🎯 **INTINYA:**
+`penjelasan.md` itu seperti **"elevator pitch"** - singkat, jelas, dan bikin orang tertarik untuk mencoba! 
+
+**User baca 2 menit → paham → langsung bisa jalanin program!** 🚀
+
+Gimana bro, cukup simple kan? 😊
