@@ -124,15 +124,16 @@ Gambar noisy berat: +10-15 dB improvement
 ### 🆚 PERBANDINGAN ALGORITMA
 
 Non-Local Means vs Others:
-```Markdown
 
-| Algorithm | Kelebihan |	Kekurangan |
-|-----------|-----------|--------------|
-| Non-Local Means	| Hasil natural, detail terjaga	|Processing lambat |
-| Gaussian Blur	| Cepat |	Hasil blur, detail hilang |
-| Median Filter	Bagus | untuk salt-pepper noise	| Tidak optimal untuk Gaussian noise |
-| Bilateral Filter	| Pertahankan edges	| Parameter sensitif |
+```Markdown
+| Algorithm | Kelebihan | Kekurangan |
+| :---: | :---: | :---: |
+| **Non-Local Means** | Hasil natural, detail terjaga | Processing lambat |
+| **Gaussian Blur** | Cepat | Hasil blur, detail hilang |
+| **Median Filter** | Bagus untuk *salt-pepper noise* | Tidak optimal untuk *Gaussian noise* |
+| **Bilateral Filter** | Pertahankan *edges* | Parameter sensitif |
 ```
+
 ## 🎯 OPTIMAL PARAMETER COMBINATIONS
 Untuk Various Scenarios:
 1. Portrait Photos (Skin Smoothing)
