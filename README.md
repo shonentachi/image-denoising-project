@@ -87,7 +87,21 @@ MIT License - bebas digunakan untuk project personal maupun komersial.
 text
 ## 📄 File requirements.txt
 ```'txt
+
+# Image Processing
 opencv-python==4.8.1.78
+
+# Scientific Computing
+numpy==1.24.3
+
+# Data Visualization
+matplotlib==3.7.1
+
+# Image Manipulation
+Pillow==9.5.0
+
+# Testing
+pytest==7.3.1
 ```
 
 ## 🔧 Modified Code dengan Path yang Lebih Baik
