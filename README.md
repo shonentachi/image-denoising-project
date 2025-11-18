@@ -23,14 +23,14 @@ pip install opencv-python
 🚀 Cara Menggunakan
 Siapkan gambar di folder images/original/
 
-Jalankan script:
+##Jalankan script:
 
 bash
 cd src
 python denoising.py
 Hasil akan tersimpan di images/results/
 
-📁 Struktur Project
+##📁 Struktur Project
 text
 denoising-project/
 ├── src/                    # Source code
@@ -41,26 +41,26 @@ denoising-project/
 │   └── results/          # Hasil denoising
 ├── docs/                 # Dokumentasi
 └── README.md            # File ini
-⚙️ Parameter Denoising
+##⚙️ Parameter Denoising
 python
 # Default parameters:
 h = 10                   # Kekuatan filter
 templateWindowSize = 7   # Ukuran template window  
 searchWindowSize = 21    # Ukuran search window
-📸 Contoh Hasil
+##📸 Contoh Hasil
 Sebelum	Sesudah
 https://images/original/gambar%25201.jpg	https://images/results/foto_denoised.jpg
-🎯 Teknik yang Digunakan
+##🎯 Teknik yang Digunakan
 Non-Local Means Denoising: Algoritma canggih yang mempertahankan detail gambar
 
 Grayscale Conversion: Optimasi processing
 
 Real-time Comparison: Visualisasi langsung
 
-👨‍💻 Author
+##👨‍💻 Author
 Dibuat oleh [Nama Anda]
 
-📄 License
+##📄 License
 MIT License - bebas digunakan untuk project personal maupun komersial.
 
 text
@@ -68,7 +68,7 @@ text
 ## 📄 File requirements.txt
 ```txt
 opencv-python==4.8.1.78
-🔧 Modified Code dengan Path yang Lebih Baik
+##🔧 Modified Code dengan Path yang Lebih Baik
 python
 import cv2
 import os
