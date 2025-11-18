@@ -25,60 +25,63 @@ for setiap_pixel_di_gambar:
     cari_pixel_mirip_di_seluruh_gambar()
     hitung_rata_rata_pixel_mirip()
     ganti_pixel_dengan_hasil_rata_rata()
-Bedanya dengan Denoising Biasa:
-Traditional: Cuma lihat tetangga dekat → hasil blur
+```
 
-Non-Local Means: Lihat seluruh gambar → hasil lebih natural
+### Bedanya dengan Denoising Biasa:
+- Traditional: Cuma lihat tetangga dekat → hasil blur
 
-📊 PARAMETER TEKNIS
+- Non-Local Means: Lihat seluruh gambar → hasil lebih natural
+
+### 📊 PARAMETER TEKNIS
 1. h (Filter Strength)
-python
+```python
 h = 10  # Nilai default
+```
 Fungsi: Mengatur kekuatan denoising
 
 Range values:
 
-h = 3-10 → Denoising lembut (good for mild noise)
+- h = 3-10 → Denoising lembut (good for mild noise)
 
-h = 10-20 → Denoising medium (balanced)
+- h = 10-20 → Denoising medium (balanced)
 
-h = 20-30 → Denoising kuat (heavy noise)
+- h = 20-30 → Denoising kuat (heavy noise)
 
 Efek:
 
-h kecil → Noise masih sisa, detail terjaga
+- h kecil → Noise masih sisa, detail terjaga
 
-h besar → Noise hilang, mungkin detail ikut hilang
+- h besar → Noise hilang, mungkin detail ikut hilang
 
 2. templateWindowSize
-python
+```python
 templateWindowSize = 7  # Harus ganjil!
 Fungsi: Ukuran patch kecil yang dibandingkan
-
+```
 Allowed values: 3, 5, 7
 
 Efek:
 
-Nilai kecil (3) → Lebih detail, lebih lambat
+- Nilai kecil (3) → Lebih detail, lebih lambat
 
-Nilai besar (7) → Lebih smooth, lebih cepat
+- Nilai besar (7) → Lebih smooth, lebih cepat
 
 3. searchWindowSize
-python
+```python
 searchWindowSize = 21  # Harus ganjil!
 Fungsi: Seberapa luas area pencarian pixel mirip
-
+```
 Allowed values: 15, 21, 25, 31
 
 Efek:
 
-Nilai kecil → Cepat, hasil kurang optimal
+- Nilai kecil → Cepat, hasil kurang optimal
 
-Nilai besar → Lambat, hasil lebih bagus
+- Nilai besar → Lambat, hasil lebih bagus
 
 🔍 DETAIL IMPLEMENTASI
 Flow Program Kita:
-python
+```python
 # 1. Baca gambar
 img = cv2.imread("gambar 1.jpg")           # BGR format
 
@@ -90,6 +93,8 @@ denoised = cv2.fastNlMeansDenoising(gray, None, h=10, ...)
 
 # 4. Save & show results
 cv2.imwrite("hasil.jpg", denoised)
+```
+
 Kenapa Pakai Grayscale?
 Lebih cepat → 1 channel vs 3 channels (RGB)
 
@@ -103,13 +108,13 @@ Rumus: PSNR = 20 * log10(MAX / √MSE)
 
 Interpretasi:
 
-PSNR < 20 dB → Poor quality
+- 'PSNR < 20 dB → Poor quality'
 
-PSNR 20-30 dB → Acceptable
+- 'PSNR 20-30 dB → Acceptable'
 
-PSNR > 30 dB → Good quality
+- 'PSNR > 30 dB → Good quality'
 
-PSNR > 40 dB → Excellent
+- 'PSNR > 40 dB → Excellent'
 
 Improvement Typical:
 Gambar noisy ringan: +5-10 dB improvement
