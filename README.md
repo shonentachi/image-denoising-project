@@ -34,7 +34,8 @@ python denoising.py
 Hasil akan tersimpan di images/results/
 ```
 
-### 📁 Struktur Project
+## 📁 Struktur Project
+
 ```text
 denoising-project/
 ├── src/                    # Source code
@@ -47,13 +48,14 @@ denoising-project/
 └── README.md            # File ini
 ```
 
-##⚙️ Parameter Denoising
+##3⚙️ Parameter Denoising
 
-python
+```python
 # Default parameters:
 h = 10                   # Kekuatan filter
 templateWindowSize = 7   # Ukuran template window  
 searchWindowSize = 21    # Ukuran search window
+```
 
 ##📸 Contoh Hasil
 
@@ -72,7 +74,7 @@ Real-time Comparison: Visualisasi langsung
 
 ##👨‍💻 Author
 
-Dibuat oleh [Egy FAhmi Ramadhani]
+Dibuat oleh [Egy Fahmi Ramadhani]
 
 ##📄 License
 
